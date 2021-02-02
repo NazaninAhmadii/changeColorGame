@@ -1,6 +1,12 @@
 const screen = document.getElementById('screen');
 
-let arr = [['blue', 'yellow', 'blue', 'blue', 'blue', 'red'], ['yellow', 'yellow', 'red', 'blue', 'blue', 'yellow'], ['blue', 'red', 'red', 'red', 'red', 'blue'], ['yellow', 'yellow', 'red', 'red', 'yellow', 'blue'], ['blue', 'yellow', 'blue', 'red', 'blue', 'yellow']];
+
+let arr = [['blue', 'yellow', 'aqua', 'blue', 'blue', 'red'], 
+           ['yellow', 'yellow', 'red', 'blue', 'blue', 'yellow'], 
+           ['blue', 'red', 'red', 'red', 'red', 'blue'], 
+           ['yellow', 'yellow', 'red', 'red', 'yellow', 'blue'], 
+           ['blue', 'yellow', 'purple', 'aqua', 'blue', 'yellow'],
+           ['purple', 'yellow', 'blue', 'red', 'aqua', 'yellow']];
 
 //Generate the table
 const generateTable = (arr) => {
